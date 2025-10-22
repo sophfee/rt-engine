@@ -1,0 +1,24 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+
+# IDE
+.vs/*
+.idea/*
+*.user
+
+# A compiled build that software renders 1 frame
+optimized 1 frame/*
+optimized 1 frame.zip
+
+# was originally planning to use GLFW, ended up using SDL2.
+GLFW/*
+
+# Compilation Intermediate directories
+rt-engine/*
+x64/*
+
+# SDL2, download it yourself
+SDL2/*
